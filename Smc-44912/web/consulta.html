@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Consulta</title>
+        <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <script src="js/bootstrap.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="css.css" />
+        <script type="text/javascript" src="js.js"></script> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body align="center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 well well-sm">
+                    <legend><a href="http://www.jquery2dotnet.com"><i class="glyphicon glyphicon-globe"></i></a> Consulta</legend>
+                    <form action="SignUp" method="get" class="form" role="form">
+                        <input class="form-control" name="ID_especialidade" placeholder="ID_especialidade" type="email" />
+                        <input class="form-control" name="Medico_Pessoa_idpessoa" placeholder="Medico_Pessoa_idpessoa" type="email" />
+                        <input class="form-control" name="Paciente_Pessoa_idpessoa" placeholder="Paciente_Pessoa_idpessoa" type="password" />
+                        <label for="">
+                            Data da Consulta
+                        </label>
+                        <div class="row">
+                            <div class="col-xs-4 col-md-4">
+                                <select class="form-control"name="mes">
+                                    <option value="Month" >Mês</option>
+                                     <option value="Month" name="mes">September</option>
+                                      <option value="Month">Octuber</option>
+                                       <option value="Month">November</option>
+                                        <option value="Month">Dezembro</option>
+                                         
+                                         
+                                </select>
+                            </div>
+                            <div class="col-xs-4 col-md-4">
+                                <select class="form-control" name="dia">
+                                    <option value="Day">Dia</option>
+                                     <option value="Day">1</option>
+                                      <option value="Day">2</option>
+                                       <option value="Day">3</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-4 col-md-4">
+                                <select class="form-control"name="ano">
+                                    <option value="Year">Ano</option>
+                                    <option value="Year">2014</option>
+                                     <option value="Year">2013</option>
+                                      <option value="Year">2012</option>
+                                </select>
+                            </div>
+                        </div>
+                        <label class="radio-inline">
+                            <input type="radio" name="sex" id="inlineCheckbox1" value="Homem" />
+                            Homem
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="sex" id="inlineCheckbox2" value="Mulher" />
+                            Mulher
+                        </label>
+                        <br />
+                        <br />
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">
+                            login
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
